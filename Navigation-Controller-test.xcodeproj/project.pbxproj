@@ -14,6 +14,8 @@
 		40DDE7191D231B7300F22251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDE7171D231B7300F22251 /* LaunchScreen.storyboard */; };
 		40DDE7241D231B7300F22251 /* Navigation_Controller_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDE7231D231B7300F22251 /* Navigation_Controller_testTests.swift */; };
 		40DDE72F1D231B7300F22251 /* Navigation_Controller_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDE72E1D231B7300F22251 /* Navigation_Controller_testUITests.swift */; };
+		40DDE73D1D231E0E00F22251 /* YellowVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDE73C1D231E0E00F22251 /* YellowVc.swift */; };
+		40DDE73F1D231E2200F22251 /* BlueVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDE73E1D231E2200F22251 /* BlueVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		40DDE72A1D231B7300F22251 /* Navigation-Controller-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation-Controller-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DDE72E1D231B7300F22251 /* Navigation_Controller_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_testUITests.swift; sourceTree = "<group>"; };
 		40DDE7301D231B7300F22251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DDE73C1D231E0E00F22251 /* YellowVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowVc.swift; sourceTree = "<group>"; };
+		40DDE73E1D231E2200F22251 /* BlueVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				40DDE7151D231B7300F22251 /* Assets.xcassets */,
 				40DDE7171D231B7300F22251 /* LaunchScreen.storyboard */,
 				40DDE71A1D231B7300F22251 /* Info.plist */,
+				40DDE73C1D231E0E00F22251 /* YellowVc.swift */,
+				40DDE73E1D231E2200F22251 /* BlueVc.swift */,
 			);
 			path = "Navigation-Controller-test";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DDE73F1D231E2200F22251 /* BlueVc.swift in Sources */,
 				40DDE7111D231B7300F22251 /* ViewController.swift in Sources */,
 				40DDE70F1D231B7300F22251 /* AppDelegate.swift in Sources */,
+				40DDE73D1D231E0E00F22251 /* YellowVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
